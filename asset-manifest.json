@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Tickets/static/css/main.7acaea2f.css",
-    "main.js": "/Tickets/static/js/main.07d3183d.js",
-    "index.html": "/Tickets/index.html",
-    "main.7acaea2f.css.map": "/Tickets/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Tickets/static/js/main.07d3183d.js.map"
+    "main.css": "/TriPlanner/static/css/main.7acaea2f.css",
+    "main.js": "/TriPlanner/static/js/main.07d3183d.js",
+    "index.html": "/TriPlanner/index.html",
+    "main.7acaea2f.css.map": "/TriPlanner/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/TriPlanner/static/js/main.07d3183d.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
