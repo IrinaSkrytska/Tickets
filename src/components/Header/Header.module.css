@@ -9,10 +9,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  height: 807px;
+  margin-bottom: 52px;
 }
 .ticket {
   position: absolute;
-  top: 50%;
+  top: 371px;
   left: 130px;
   background: linear-gradient(
     rgba(204, 247, 251, 0.7) 0%,
@@ -75,4 +77,11 @@
   transform: matrix(1, 0, 0, 1, 0, 0);
   width: 143px;
   height: 37px;
+}
+.direction__images {
+  position: absolute;
+  top: 38.2%;
+  left: 577px;
+  display: flex;
+  flex-direction: row;
 }
