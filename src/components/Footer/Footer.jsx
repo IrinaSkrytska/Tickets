@@ -4,42 +4,74 @@ export default function Footer() {
   return (
     <>
       <section className={css.footer__background}>
-        <p>TriPlanner (c) 2022</p>
-        <ul>
-          <li>
-            <a href="/#">Політика конфеденційності</a>
-          </li>
-          <li>
-            <a href="/#">Умови повернення</a>
-          </li>
-          <li>
-            <a href="/#">Політика Cockie</a>
-          </li>
-          <li>
-            <a href="/#">Згода на обробку даних</a>
-          </li>
-          <li>
-            <a href="/#">Публічна оферта</a>
-          </li>
-          <li>
-            <a href="/#">Контакти</a>
-          </li>
-          <li>
-            <a href="/#">Про нас</a>
-          </li>
-          <li>
-            <a href="/#">Допомога</a>
-          </li>
-          <li>
-            <a href="/#">Співробітництво</a>
-          </li>
-          <li>
-            <a href="/#">Мапа сайту</a>
-          </li>
-          <li>
-            <a href="/#">Мапа COVID-правил</a>
-          </li>
-        </ul>
+        <div className={css.links__thumb}>
+          <li className={css.triplanner}>TriPlanner (c) 2022</li>
+          <ul className={css.conditions}>
+            <li className={css.link}>
+              <a href="/#" className={css.footer__links}>
+                Політика конфіденційності
+              </a>
+            </li>
+            <li className={css.link}>
+              <a href="/#" className={css.footer__links}>
+                Умови повернення
+              </a>
+            </li>
+            <li className={css.link}>
+              <a href="/#" className={css.footer__links}>
+                Політика Cookie
+              </a>
+            </li>
+          </ul>
+
+          <ul>
+            <li className={css.link}>
+              <a href="/#" className={css.footer__links}>
+                Згода на обробку даних
+              </a>
+            </li>
+            <li className={css.link}>
+              <a href="/#" className={css.footer__links}>
+                Публічна оферта
+              </a>
+            </li>
+          </ul>
+
+          <ul>
+            <li className={css.link}>
+              <a href="/#" className={css.footer__links}>
+                Контакти
+              </a>
+            </li>
+            <li className={css.link}>
+              <a href="/#" className={css.footer__links}>
+                Про нас
+              </a>
+            </li>
+            <li className={css.link}>
+              <a href="/#" className={css.footer__links}>
+                Допомога
+              </a>
+            </li>
+            <li className={css.link}>
+              <a href="/#" className={css.footer__links}>
+                Співробітництво
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li className={css.link}>
+              <a href="/#" className={css.footer__links}>
+                Мапа сайту
+              </a>
+            </li>
+            <li className={css.link}>
+              <a href="/#" className={css.footer__links}>
+                Мапа COVID-правил
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </>
   );

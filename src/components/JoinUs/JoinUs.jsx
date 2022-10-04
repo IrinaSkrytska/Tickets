@@ -42,16 +42,34 @@ export default function JoinUs() {
           </div>
         </div>
         <div className={css.corona__thumb}>
-          <button type="button" className={css.corona__button}>
-            Інтерактивна мапа COVID-правил
-          </button>
-          <svg width="79px" height="79px" aria-label="">
+          <div className={css.corona__btn__thumb}>
+            <button type="button" className={css.corona__button}>
+              Інтерактивна мапа COVID-правил
+            </button>
+          </div>
+
+          <svg
+            width="79px"
+            height="79px"
+            aria-label=""
+            className={css.corona__big}
+          >
             <use href={sprite + '#icon-corona-big'}></use>
           </svg>
-          <svg width="62px" height="62px" aria-label="">
+          <svg
+            width="62px"
+            height="62px"
+            aria-label=""
+            className={css.corona__medium}
+          >
             <use href={sprite + '#icon-corona-medium'}></use>
           </svg>
-          <svg width="31px" height="31px" aria-label="">
+          <svg
+            width="31px"
+            height="31px"
+            aria-label=""
+            className={css.corona__small}
+          >
             <use href={sprite + '#icon-corona-small'}></use>
           </svg>
         </div>

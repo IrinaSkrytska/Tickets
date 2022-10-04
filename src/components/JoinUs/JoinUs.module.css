@@ -39,6 +39,7 @@
   background-size: cover;
   border-radius: 30px;
   padding-right: 112px;
+  margin-bottom: 105px;
 }
 .order__message {
   padding-top: 19px;
@@ -70,7 +71,6 @@
   border: 1px #fff;
 }
 .corona__thumb {
-  margin-top: 74px;
   margin-bottom: 127px;
 }
 
@@ -91,7 +91,15 @@
   top: 157px;
   left: 44%;
 }
+.corona__thumb {
+  position: relative;
+}
+.corona__btn__thumb {
+  display: flex;
+  justify-content: center;
+}
 .corona__button {
+  margin-left: 0 auto;
   width: 332px;
   height: 52px;
   background: linear-gradient(90deg, #3db0ec 0%, #61d0e5 100%);
@@ -102,4 +110,22 @@
   font-size: 14px;
   line-height: 17px;
   text-align: center;
+}
+.corona__medium {
+  position: absolute;
+  top: 0%;
+  right: 67%;
+  fill: #3fb2ec;
+}
+.corona__big {
+  position: absolute;
+  top: 40%;
+  right: 30%;
+  fill: #3fb2ec;
+}
+.corona__small {
+  position: absolute;
+  bottom: 100%;
+  right: 65%;
+  fill: #3fb2ec;
 }
