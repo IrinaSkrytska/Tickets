@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/TriPlanner/static/css/main.7acaea2f.css",
-    "main.js": "/TriPlanner/static/js/main.07d3183d.js",
+    "main.css": "/TriPlanner/static/css/main.5c01f56d.css",
+    "main.js": "/TriPlanner/static/js/main.26cee116.js",
+    "static/media/image.jpg": "/TriPlanner/static/media/image.4450318ab86cdc14915d.jpg",
+    "static/media/sprite.svg": "/TriPlanner/static/media/sprite.a85f13201e73dccdb93a56f854554c0d.svg",
     "index.html": "/TriPlanner/index.html",
-    "main.7acaea2f.css.map": "/TriPlanner/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/TriPlanner/static/js/main.07d3183d.js.map"
+    "main.5c01f56d.css.map": "/TriPlanner/static/css/main.5c01f56d.css.map",
+    "main.26cee116.js.map": "/TriPlanner/static/js/main.26cee116.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.5c01f56d.css",
+    "static/js/main.26cee116.js"
   ]
 }
