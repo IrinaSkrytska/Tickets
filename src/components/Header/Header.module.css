@@ -1,0 +1,78 @@
+.hero {
+  position: relative;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      rgba(1, 33, 105, 0.3),
+      rgba(1, 33, 105, 0.3)
+    ),
+    url(../../images/image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.ticket {
+  position: absolute;
+  top: 50%;
+  left: 130px;
+  background: linear-gradient(
+    rgba(204, 247, 251, 0.7) 0%,
+    rgba(161, 220, 255, 0.7) 103.48%
+  );
+  border-radius: 30px 0px 30px 30px;
+  padding: 31px 28px 57px 30px;
+}
+.ticket__button {
+  width: 127px;
+  height: 36px;
+  background: linear-gradient(89.87deg, #e27582 0.1%, #e9a383 99.88%);
+  border-radius: 26px;
+}
+.button__login {
+  width: 127px;
+  height: 30px;
+  background: linear-gradient(89.87deg, #e27582 0.1%, #e9a383 99.88%);
+  border-radius: 15.5px;
+  margin-right: 100px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  border: 1px #fff;
+}
+
+.logo {
+  position: absolute;
+  top: 39px;
+  left: 110px;
+}
+
+.header__features {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: baseline;
+  padding-top: 39px;
+  margin: 0;
+}
+.header__feature:not(:last-child) {
+  margin-right: 30px;
+}
+.login__icon {
+  margin-right: 10px;
+}
+.ticket__input__place {
+  background: #fff;
+  border: 1px solid #32a7ed;
+  border-radius: 26px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  width: 256px;
+  height: 37px;
+}
+.ticket__input {
+  background: #fff;
+  border: 1px solid #32a7ed;
+  border-radius: 26px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  width: 143px;
+  height: 37px;
+}
