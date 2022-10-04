@@ -91,3 +91,15 @@
   top: 157px;
   left: 44%;
 }
+.corona__button {
+  width: 332px;
+  height: 52px;
+  background: linear-gradient(90deg, #3db0ec 0%, #61d0e5 100%);
+  border: 1px solid #ffffff;
+  border-radius: 26px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}

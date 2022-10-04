@@ -42,7 +42,9 @@ export default function JoinUs() {
           </div>
         </div>
         <div className={css.corona__thumb}>
-          <button type="button">Інтерактивна мапа COVID-правил</button>
+          <button type="button" className={css.corona__button}>
+            Інтерактивна мапа COVID-правил
+          </button>
           <svg width="79px" height="79px" aria-label="">
             <use href={sprite + '#icon-corona-big'}></use>
           </svg>
