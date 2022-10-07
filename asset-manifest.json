@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/TriPlanner/static/css/main.19dc82c5.css",
-    "main.js": "/TriPlanner/static/js/main.f0562841.js",
+    "main.css": "/TriPlanner/static/css/main.439c1770.css",
+    "main.js": "/TriPlanner/static/js/main.ee1788f7.js",
     "static/media/image.jpg": "/TriPlanner/static/media/image.4450318ab86cdc14915d.jpg",
     "static/media/join.jpg": "/TriPlanner/static/media/join.3bc7b8615bd92ab4e9f3.jpg",
+    "static/media/sprite.svg": "/TriPlanner/static/media/sprite.1a7c5940090e69715be5d7cedda8c0ef.svg",
     "static/media/background-app.jpg": "/TriPlanner/static/media/background-app.40edfe83a3857554c1ad.jpg",
     "static/media/footer.jpg": "/TriPlanner/static/media/footer.1051c77f84577658fcbb.jpg",
-    "static/media/sprite.svg": "/TriPlanner/static/media/sprite.0b1cd147faa88589054d08c7e4c07d2b.svg",
     "static/media/qrCode.jpg": "/TriPlanner/static/media/qrCode.79196c289309c3661b49.jpg",
+    "static/media/appStore.svg": "/TriPlanner/static/media/appStore.f6eabb82aed0074c570a1bb353d5cd33.svg",
+    "static/media/googlePlay.svg": "/TriPlanner/static/media/googlePlay.f568c83b17193786a8beb69f9b0fd57c.svg",
+    "static/media/people.svg": "/TriPlanner/static/media/people.f9726372ebbcf493ac5d1cc86a718f23.svg",
+    "static/media/place.svg": "/TriPlanner/static/media/place.15c86d5d7c29975df00da77eb76efe40.svg",
+    "static/media/date.svg": "/TriPlanner/static/media/date.41db0a65b65b6ad28116c4cf4828f616.svg",
     "index.html": "/TriPlanner/index.html",
-    "main.19dc82c5.css.map": "/TriPlanner/static/css/main.19dc82c5.css.map",
-    "main.f0562841.js.map": "/TriPlanner/static/js/main.f0562841.js.map"
+    "static/media/main__direction.svg": "/TriPlanner/static/media/main__direction.37acde7cdd26dc68ec74.svg",
+    "static/media/pink.svg": "/TriPlanner/static/media/pink.21289bdc218f8c650cae253a1183f5db.svg",
+    "main.439c1770.css.map": "/TriPlanner/static/css/main.439c1770.css.map",
+    "main.ee1788f7.js.map": "/TriPlanner/static/js/main.ee1788f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.19dc82c5.css",
-    "static/js/main.f0562841.js"
+    "static/css/main.439c1770.css",
+    "static/js/main.ee1788f7.js"
   ]
 }
