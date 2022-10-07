@@ -1,7 +1,7 @@
 import css from './Container.module.css';
 
-function Container() {
-  return <div className={css.container}></div>;
+function Container({ children }) {
+  return <div className={css.container}>{children}</div>;
 }
 
 export default Container;

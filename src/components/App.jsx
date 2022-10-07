@@ -1,16 +1,16 @@
-import Header from './Header';
-import Container from './Container';
-import Destinations from './Destinations/Destinations';
-import JoinUs from './JoinUs';
+import { Routes, Route } from 'react-router-dom';
+import Home from './Home';
 import Footer from './Footer';
+import Ticket from './Ticket';
 
 export const App = () => {
   return (
     <>
-      <Container />
-      <Header />
-      <Destinations />
-      <JoinUs />
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="tickets/ticketId" element={<Ticket />} />
+      </Routes>
+
       <Footer />
     </>
   );

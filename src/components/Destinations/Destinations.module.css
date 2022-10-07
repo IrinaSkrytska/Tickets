@@ -1,8 +1,5 @@
-.popular__destinations {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: baseline;
+.destinations__thumb {
+  margin-bottom: 60px;
 }
 .destinations {
   padding: 10px 30px;
@@ -18,7 +15,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
-  margin-right: 22px;
+  margin-right: 26px;
   color: rgba(0, 0, 0, 0.6);
 }
 .icon__heart {
@@ -26,4 +23,10 @@
 }
 .destinations:not(:last-child) {
   margin-right: 30px;
+}
+.destinations__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
 }

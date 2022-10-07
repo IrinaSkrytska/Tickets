@@ -1,6 +1,8 @@
 import css from './JoinUs.module.css';
 import sprite from '../../images/sprite.svg';
 import qrCode from '../../../src/qrCode.jpg';
+import googlePlay from '../../images/googlePlay.svg';
+import appStore from '../../images/appStore.svg';
 
 export default function JoinUs() {
   return (
@@ -22,22 +24,41 @@ export default function JoinUs() {
             <li className={css.order__message}>
               Надіслати посилання на телефон
             </li>
-            <input type="tel" placeholder="+380 ------" className={css.phone} />
-            <button type="button" className={css.send__button}>
-              Надіслати
-            </button>
-            <div className={css.stores}>
+
+            <div className={css.input__wrapper}>
               <svg
+                width="18px"
+                height="18px"
+                aria-label=""
+                className={css.input__icon}
+              >
+                <use href={sprite + '#icon-flag-ukraine'}></use>
+              </svg>
+              <input
+                type="tel"
+                placeholder="+380 _ _ _ _ _ _ _"
+                className={css.phone__input}
+              />
+              <button type="button" className={css.send__button}>
+                Надіслати
+              </button>
+            </div>
+
+            <div className={css.stores}>
+              <img
+                src={googlePlay}
+                alt=""
                 width="170px"
                 height="53px"
-                aria-label=""
                 className={css.store}
-              >
-                <use href={sprite + '#icon-GooglePlay'}></use>
-              </svg>
-              <svg width="170px" height="53px" aria-label="">
-                <use href={sprite + '#icon-appStore'}></use>
-              </svg>
+              />
+              <img
+                src={appStore}
+                alt=""
+                width="179px"
+                height="53px"
+                className={css.store}
+              />
             </div>
           </div>
         </div>
