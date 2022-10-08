@@ -27,6 +27,7 @@
   display: flex;
   flex-wrap: wrap;
 }
+
 .ticket__button {
   border: 1px #fff;
   width: 127px;
@@ -75,10 +76,10 @@
 }
 
 .all__directions {
-  margin-right: -1px;
+  margin-right: -0.3%;
 }
 .direction {
-  margin-left: -8px;
+  margin-left: -0.98%;
 }
 .direction__change {
   margin-right: 15px;
