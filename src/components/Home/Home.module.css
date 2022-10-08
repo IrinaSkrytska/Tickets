@@ -69,10 +69,10 @@
 
 .direction__images {
   display: flex;
-  flex-wrap: wrap;
   position: absolute;
-  top: 38.3%;
-  left: 44.3%;
+
+  top: 310px;
+  left: 673px;
 }
 
 .all__directions {
