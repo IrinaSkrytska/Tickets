@@ -71,9 +71,10 @@
   color: rgba(0, 0, 0, 0.6);
 }
 .transport__filter__results {
+  border: none;
   width: 124px;
   height: 22px;
-  border: 1px solid #32a7ed;
+
   border-radius: 15.5px;
   font-style: normal;
   font-weight: 400;
@@ -201,7 +202,7 @@
   color: #32a7ed;
   width: 124px;
   height: 22px;
-  border: 1px solid #32a7ed;
+  border: none;
   border-radius: 15.5px;
   margin-right: 196px;
 }
@@ -214,9 +215,9 @@
   color: #32a7ed;
   width: 124px;
   height: 22px;
-  border: 1px solid #32a7ed;
   border-radius: 15.5px;
   margin-right: 50px;
+  border: none;
 }
 .price__btn {
   margin-right: 10px;
@@ -340,11 +341,11 @@
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
-
   width: 124px;
   height: 22px;
   border: 1px solid #32a7ed;
   border-radius: 15.5px;
   margin-right: 10px;
   color: #f1b31c;
+  border: none;
 }
