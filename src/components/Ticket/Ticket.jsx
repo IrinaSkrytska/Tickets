@@ -477,14 +477,7 @@ export default function Ticket() {
                   </svg>
                 </li>
                 <li>
-                  <svg
-                    width="24px"
-                    height="24px"
-                    aria-label=""
-                    className={css.location}
-                  >
-                    <use href={sprite + '#icon-location'}></use>
-                  </svg>
+                  <img src={pink} alt="" width="17px" height="20px" />
                 </li>
               </ul>
               <ul className={css.routes}>
@@ -660,14 +653,7 @@ export default function Ticket() {
                   </svg>
                 </li>
                 <li>
-                  <svg
-                    width="24px"
-                    height="24px"
-                    aria-label=""
-                    className={css.location}
-                  >
-                    <use href={sprite + '#icon-location'}></use>
-                  </svg>
+                  <img src={pink} alt="" width="17px" height="20px" />
                 </li>
               </ul>
               <ul className={css.routes}>
