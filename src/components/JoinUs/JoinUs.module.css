@@ -95,7 +95,6 @@
     rgba(21, 31, 32, 0.3) 0%,
     rgba(55, 96, 121, 0.3) 103.48%
   );
-  backdrop-filter: blur(11px);
   border-radius: 10px;
 }
 .store {
@@ -104,7 +103,7 @@
 .qr {
   position: absolute;
   top: 157px;
-  left: 44%;
+  left: 670px;
 }
 .corona__thumb {
   position: relative;

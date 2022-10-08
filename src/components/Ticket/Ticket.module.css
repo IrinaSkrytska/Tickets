@@ -9,12 +9,14 @@
   width: 559px;
   height: 1239px;
   border-radius: 15px;
-  margin-bottom: 60px;
+  padding-bottom: 120px;
 }
+
 .ticket {
   margin-top: 17px;
   background: #ffffff;
 }
+
 .offered__ticket {
   display: block;
   margin-left: 30px;
@@ -68,6 +70,23 @@
   line-height: 15px;
   color: rgba(0, 0, 0, 0.6);
 }
+.transport__filter__results {
+  width: 124px;
+  height: 22px;
+  border: 1px solid #32a7ed;
+  border-radius: 15.5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  background: rgba(50, 167, 237, 0.2);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #32a7ed;
+  margin-right: 10px;
+}
+
 .transport__filter__price {
   width: 68px;
   height: 22px;
@@ -175,18 +194,29 @@
 }
 .transport__price__btn {
   margin-top: 15px;
-
+  background: rgba(50, 167, 237, 0.2);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #32a7ed;
   width: 124px;
   height: 22px;
   border: 1px solid #32a7ed;
   border-radius: 15.5px;
-  background-color: #ffffff;
-  font-style: normal;
-  font-weight: 400;
+  margin-right: 196px;
+}
+.transport__price__button {
+  margin-top: 15px;
+  background: rgba(50, 167, 237, 0.2);
+  font-weight: 700;
   font-size: 12px;
   line-height: 15px;
-  color: rgba(0, 0, 0, 0.6);
-  margin-right: 196px;
+  color: #32a7ed;
+  width: 124px;
+  height: 22px;
+  border: 1px solid #32a7ed;
+  border-radius: 15.5px;
+  margin-right: 50px;
 }
 .price__btn {
   margin-right: 10px;
@@ -303,4 +333,18 @@
 .button__text {
   vertical-align: middle;
   margin-left: 10px;
+}
+.transport__recommend {
+  margin-top: 15px;
+  background: rgba(241, 179, 28, 0.3);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+  width: 124px;
+  height: 22px;
+  border: 1px solid #32a7ed;
+  border-radius: 15.5px;
+  margin-right: 10px;
+  color: #f1b31c;
 }

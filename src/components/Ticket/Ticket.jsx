@@ -197,7 +197,10 @@ export default function Ticket() {
             </div>
             <div className={css.transport__filter__thumb}>
               <ul className={css.transport__filter}>
-                <button type="button" className={css.transport__filter__btn}>
+                <button
+                  type="button"
+                  className={css.transport__filter__results}
+                >
                   всі результати
                 </button>
                 <button type="button" className={css.transport__filter__btn}>
@@ -218,6 +221,7 @@ export default function Ticket() {
                     найдешевший
                   </button>
                 </li>
+
                 <li className={css.price__btn}>
                   <button
                     type="button"
@@ -362,39 +366,49 @@ export default function Ticket() {
                   Україні проходження кордону може займати більше часу! Читати
                   більше: dpsu.gov.ua
                 </li>
+                <div className={css.ticket__buttons}>
+                  <button type="button" className={css.download__btn}>
+                    <svg
+                      width="16px"
+                      height="16px"
+                      aria-label=""
+                      className={css.button__icon}
+                    >
+                      <use href={sprite + '#icon-pdf'}></use>
+                    </svg>
+                    <span className={css.button__text}>Завантажити PDF</span>
+                  </button>
 
-                <button type="button" className={css.download__btn}>
-                  <svg
-                    width="16px"
-                    height="16px"
-                    aria-label=""
-                    className={css.notification__image}
-                  >
-                    <use href={sprite + '#icon-pdf'}></use>
-                  </svg>
-                  Завантажити PDF
-                </button>
-                <button type="button" className={css.search__btn}>
-                  <svg
-                    width="16px"
-                    height="16px"
-                    aria-label=""
-                    className={css.notification__image}
-                  >
-                    <use href={sprite + '#icon-search'}></use>
-                  </svg>
-                  Відкрити деталі
-                </button>
+                  <button type="button" className={css.search__btn}>
+                    <svg
+                      width="16px"
+                      height="16px"
+                      aria-label=""
+                      className={css.button__icon}
+                    >
+                      <use href={sprite + '#icon-search'}></use>
+                    </svg>
+                    <span className={css.button__text}> Відкрити деталі</span>
+                  </button>
+                </div>
               </ul>
             </div>
             <div className={css.offered__ticket}>
               <ul className={css.travels__filter__btn}>
                 <li>
-                  <button type="button" className={css.transport__price__btn}>
-                    найдешевший
+                  <button type="button" className={css.transport__recommend}>
+                    рекомендуємо
                   </button>
                 </li>
                 <li>
+                  <button
+                    type="button"
+                    className={css.transport__price__button}
+                  >
+                    найдешевший
+                  </button>
+                </li>
+                <li className={css.price__btn}>
                   <button
                     type="button"
                     className={css.transport__filter__price}
@@ -545,55 +559,55 @@ export default function Ticket() {
                   Україні проходження кордону може займати більше часу! Читати
                   більше: dpsu.gov.ua
                 </li>
+                <div className={css.ticket__buttons}>
+                  <button type="button" className={css.download__btn}>
+                    <svg
+                      width="16px"
+                      height="16px"
+                      aria-label=""
+                      className={css.button__icon}
+                    >
+                      <use href={sprite + '#icon-pdf'}></use>
+                    </svg>
+                    <span className={css.button__text}>Завантажити PDF</span>
+                  </button>
 
-                <button type="button" className={css.download__btn}>
-                  <svg
-                    width="16px"
-                    height="16px"
-                    aria-label=""
-                    className={css.notification__image}
-                  >
-                    <use href={sprite + '#icon-pdf'}></use>
-                  </svg>
-                  Завантажити PDF
-                </button>
-                <button type="button" className={css.search__btn}>
-                  <svg
-                    width="16px"
-                    height="16px"
-                    aria-label=""
-                    className={css.notification__image}
-                  >
-                    <use href={sprite + '#icon-search'}></use>
-                  </svg>
-                  Відкрити деталі
-                </button>
+                  <button type="button" className={css.search__btn}>
+                    <svg
+                      width="16px"
+                      height="16px"
+                      aria-label=""
+                      className={css.button__icon}
+                    >
+                      <use href={sprite + '#icon-search'}></use>
+                    </svg>
+                    <span className={css.button__text}> Відкрити деталі</span>
+                  </button>
+                </div>
               </ul>
-            </div>{' '}
+            </div>
             <div className={css.offered__ticket}>
-              <ul className={css.travels__filter__btn}>
-                <li>
-                  <button type="button" className={css.transport__price__btn}>
-                    найдешевший
-                  </button>
-                </li>
-                <li>
-                  <button
-                    type="button"
-                    className={css.transport__filter__price}
-                  >
-                    ~ 37 год
-                  </button>
-                </li>
-                <li>
-                  <button
-                    type="button"
-                    className={css.transport__filter__price}
-                  >
-                    ~ 79 EUR
-                  </button>
-                </li>
-              </ul>
+              <div className={css.last__option}>
+                <ul className={css.travels__filter__btn}>
+                  <li className={css.price__btn}>
+                    <button
+                      type="button"
+                      className={css.transport__filter__price}
+                    >
+                      ~ 37 год
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      type="button"
+                      className={css.transport__filter__price}
+                    >
+                      ~ 79 EUR
+                    </button>
+                  </li>
+                </ul>
+              </div>
+
               <ul className={css.travel__options__images}>
                 <li>
                   <svg width="24px" height="24px" aria-label="">
