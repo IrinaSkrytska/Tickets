@@ -4,8 +4,10 @@ import Navigation from 'components/Navigation';
 import place from '../../images/place.svg';
 import date from '../../images/date.svg';
 import pink from '../../images/pink.svg';
+import { Link, useLocation } from 'react-router-dom';
 
 export default function Ticket() {
+  const location = useLocation();
   return (
     <>
       <div className={css.ticket__header}>
@@ -379,17 +381,19 @@ export default function Ticket() {
                     <span className={css.button__text}>Завантажити PDF</span>
                   </button>
 
-                  <button type="button" className={css.search__btn}>
-                    <svg
-                      width="16px"
-                      height="16px"
-                      aria-label=""
-                      className={css.button__icon}
-                    >
-                      <use href={sprite + '#icon-search'}></use>
-                    </svg>
-                    <span className={css.button__text}> Відкрити деталі</span>
-                  </button>
+                  <Link to={`details`} state={{ from: location }}>
+                    <button type="button" className={css.search__btn}>
+                      <svg
+                        width="16px"
+                        height="16px"
+                        aria-label=""
+                        className={css.button__icon}
+                      >
+                        <use href={sprite + '#icon-search'}></use>
+                      </svg>
+                      <span className={css.button__text}> Відкрити деталі</span>
+                    </button>
+                  </Link>
                 </div>
               </ul>
             </div>
@@ -565,17 +569,19 @@ export default function Ticket() {
                     <span className={css.button__text}>Завантажити PDF</span>
                   </button>
 
-                  <button type="button" className={css.search__btn}>
-                    <svg
-                      width="16px"
-                      height="16px"
-                      aria-label=""
-                      className={css.button__icon}
-                    >
-                      <use href={sprite + '#icon-search'}></use>
-                    </svg>
-                    <span className={css.button__text}> Відкрити деталі</span>
-                  </button>
+                  <Link to={`details`} state={{ from: location }}>
+                    <button type="button" className={css.search__btn}>
+                      <svg
+                        width="16px"
+                        height="16px"
+                        aria-label=""
+                        className={css.button__icon}
+                      >
+                        <use href={sprite + '#icon-search'}></use>
+                      </svg>
+                      <span className={css.button__text}> Відкрити деталі</span>
+                    </button>
+                  </Link>
                 </div>
               </ul>
             </div>
@@ -740,18 +746,19 @@ export default function Ticket() {
                     </svg>
                     <span className={css.button__text}>Завантажити PDF</span>
                   </button>
-
-                  <button type="button" className={css.search__btn}>
-                    <svg
-                      width="16px"
-                      height="16px"
-                      aria-label=""
-                      className={css.button__icon}
-                    >
-                      <use href={sprite + '#icon-search'}></use>
-                    </svg>
-                    <span className={css.button__text}> Відкрити деталі</span>
-                  </button>
+                  <Link to={`details`} state={{ from: location }}>
+                    <button type="button" className={css.search__btn}>
+                      <svg
+                        width="16px"
+                        height="16px"
+                        aria-label=""
+                        className={css.button__icon}
+                      >
+                        <use href={sprite + '#icon-search'}></use>
+                      </svg>
+                      <span className={css.button__text}> Відкрити деталі</span>
+                    </button>
+                  </Link>
                 </div>
               </ul>
             </div>
