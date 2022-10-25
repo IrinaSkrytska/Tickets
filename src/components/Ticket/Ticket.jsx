@@ -381,7 +381,7 @@ export default function Ticket() {
                     <span className={css.button__text}>Завантажити PDF</span>
                   </button>
 
-                  <Link to={`details`} state={{ from: location }}>
+                  <Link to={`settings`} state={{ from: location }}>
                     <button type="button" className={css.search__btn}>
                       <svg
                         width="16px"
@@ -569,7 +569,7 @@ export default function Ticket() {
                     <span className={css.button__text}>Завантажити PDF</span>
                   </button>
 
-                  <Link to={`details`} state={{ from: location }}>
+                  <Link to={`settings`} state={{ from: location }}>
                     <button type="button" className={css.search__btn}>
                       <svg
                         width="16px"
@@ -746,7 +746,7 @@ export default function Ticket() {
                     </svg>
                     <span className={css.button__text}>Завантажити PDF</span>
                   </button>
-                  <Link to={`details`} state={{ from: location }}>
+                  <Link to={`settings`} state={{ from: location }}>
                     <button type="button" className={css.search__btn}>
                       <svg
                         width="16px"

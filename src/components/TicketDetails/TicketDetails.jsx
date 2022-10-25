@@ -3,6 +3,8 @@ import css from './TicketDetails.module.css';
 import sprite from '../../images/sprite.svg';
 import { Link, useLocation } from 'react-router-dom';
 import settings from '../../images/settings.svg';
+import transport from '../../images/transport.svg';
+import bell from '../../images/bell.svg';
 
 export default function TicketDetails() {
   const location = useLocation();
@@ -21,20 +23,25 @@ export default function TicketDetails() {
                 className={css.option__icon}
               />
             </li>
-            <li className={css.option}>
+            <Link to={`options`} state={{ from: location }}>
+              <li className={css.option__transport}>
+                <img
+                  src={transport}
+                  alt=""
+                  width="40px"
+                  height="40px"
+                  className={css.option__icon__transport}
+                />
+              </li>
+            </Link>
+            <li className={css.option__notification}>
               <img
-                src={settings}
+                src={bell}
                 alt=""
-                width="32px"
-                height="32px"
-                className={css.option__transport}
+                width="28px"
+                height="28px"
+                className={css.option__icon__bell}
               />
-            </li>
-            <li className={css.option}>
-              <svg width="116px" height="47px" aria-label="">
-                <use href={sprite + '#icon-notification-bg'}></use>
-                <use href={sprite + '#icon-bell'}></use>
-              </svg>
             </li>
           </ul>
         </div>
@@ -109,7 +116,7 @@ export default function TicketDetails() {
                 </svg>
               </label>
             </li>
-            <li>
+            <li className={css.logout}>
               <button type="button" className={css.button}>
                 <svg
                   width="20px"

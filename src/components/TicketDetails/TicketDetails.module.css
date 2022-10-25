@@ -19,14 +19,39 @@
   left: 595px;
 }
 .option {
-  margin-right: -8px;
+  margin-right: -7px;
   width: 116px;
   height: 47px;
   background-image: url(../../images/settings_bg.svg);
 }
+.option__icon {
+  position: absolute;
+  top: 7px;
+  left: 41px;
+}
+.option__transport {
+  margin-right: -8px;
+  width: 116px;
+  height: 47px;
+  background-image: url(../../images/transport_bg.svg);
+}
+.option__icon__transport {
+  position: absolute;
+  left: 147px;
+  top: 5px;
+}
+.option__notification {
+  width: 116px;
+  height: 47px;
+  background-image: url(../../images/bell_bg.svg);
+}
+.option__icon__bell {
+  position: absolute;
+  left: 257px;
+  top: 10px;
+}
 .details__thumb {
   display: flex;
-
   width: 450px;
   height: 518px;
   position: absolute;
@@ -63,6 +88,10 @@
   width: 345px;
   height: 37px;
   padding-left: 15px;
+}
+.logout {
+  margin-right: 10px;
+  margin-bottom: 20px;
 }
 .button {
   width: 187px;
@@ -112,9 +141,4 @@
 }
 .button__text {
   vertical-align: text-top;
-}
-.option__icon {
-  position: absolute;
-  top: 7px;
-  left: 41px;
 }
