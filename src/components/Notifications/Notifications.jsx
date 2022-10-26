@@ -3,15 +3,15 @@ import css from './Notifications.module.css';
 import sprite from '../../images/sprite.svg';
 import { Link, useLocation } from 'react-router-dom';
 import settingsWhite from '../../images/settingsWhite.svg';
-import transport_blue from '../../images/transport_blue.svg';
-import bell_white from '../../images/bell_white.svg';
-import flixbus from '../../images/flixbus.svg';
+import bell_blue from '../../images/bell_blue.svg';
+import transport from '../../images/transport.svg';
 
 export default function Notifications() {
+  const location = useLocation();
   return (
     <>
       <section className={css.hero}>
-        <Header />{' '}
+        <Header />
         <div>
           <div>
             <ul className={css.ticket__options}>
@@ -27,7 +27,7 @@ export default function Notifications() {
 
               <li className={css.option__transport}>
                 <img
-                  src={transport_blue}
+                  src={transport}
                   alt=""
                   width="40px"
                   height="40px"
@@ -37,7 +37,7 @@ export default function Notifications() {
 
               <li className={css.option__notification}>
                 <img
-                  src={bell_white}
+                  src={bell_blue}
                   alt=""
                   width="28px"
                   height="28px"
@@ -45,6 +45,85 @@ export default function Notifications() {
                 />
               </li>
             </ul>
+            <div className={css.notifications__thumb}>
+              <h2 className={css.notifications__title}>Сповіщення про ціни</h2>
+              <ul className={css.notification__prices}>
+                <li className={css.notification__destination}>
+                  Стамбул - Париж
+                </li>
+                <li className={css.notification__price}>~ 79 EUR</li>
+                <li>
+                  <button type="button" className={css.save__btn}>
+                    <svg
+                      width="16px"
+                      height="16px"
+                      aria-label=""
+                      className={css.button__icon}
+                    >
+                      <use href={sprite + '#icon-saved'}></use>
+                    </svg>
+                    <span className={css.button__text}>
+                      Перейти до маршруту
+                    </span>
+                  </button>
+                </li>
+              </ul>
+              <ul className={css.notification__prices__second}>
+                <li className={css.notification__destination}>
+                  Мюнхен - Нью-Йорк
+                </li>
+                <li className={css.notification__price}>~ 84 EUR</li>
+                <li>
+                  <button type="button" className={css.save__btn}>
+                    <svg
+                      width="16px"
+                      height="16px"
+                      aria-label=""
+                      className={css.button__icon}
+                    >
+                      <use href={sprite + '#icon-saved'}></use>
+                    </svg>
+                    <span className={css.button__text}>
+                      Перейти до маршруту
+                    </span>
+                  </button>
+                </li>
+              </ul>
+              <ul className={css.notification__prices__third}>
+                <li className={css.notification__destination}>
+                  Мюнхен - Нью-Йорк
+                </li>
+                <li className={css.notification__price}>~ 84 EUR</li>
+                <li>
+                  <button type="button" className={css.save__btn}>
+                    <svg
+                      width="16px"
+                      height="16px"
+                      aria-label=""
+                      className={css.button__icon}
+                    >
+                      <use href={sprite + '#icon-saved'}></use>
+                    </svg>
+                    <span className={css.button__text}>
+                      Перейти до маршруту
+                    </span>
+                  </button>
+                </li>
+              </ul>{' '}
+              <Link to={`/`} state={{ from: location }}>
+                <button type="button" className={css.button__search}>
+                  <svg
+                    width="20px"
+                    height="20px"
+                    aria-label=""
+                    className={css.button_icon}
+                  >
+                    <use href={sprite + '#icon-search'}></use>
+                  </svg>
+                  <span className={css.search__text}>До сторінки пошуку</span>
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </section>

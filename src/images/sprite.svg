@@ -72,7 +72,7 @@
 </symbol>
 
 
-<symbol id="icon-notification" viewBox="0 0 27 32">
+<symbol id="icon-notification__white" viewBox="0 0 27 32">
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4615" d="M17.846 26.051c0 1.142-0.454 2.238-1.262 3.046s-1.903 1.262-3.046 1.262c-1.143 0-2.238-0.454-3.046-1.262s-1.262-1.904-1.262-3.046M14.573 5.953l-2.105-0.004c-4.802-0.011-8.97 3.89-9.003 8.615v5.442c0 1.134-0.144 2.241-0.762 3.185l-0.412 0.629c-0.627 0.953 0.047 2.231 1.175 2.231h20.146c1.127 0 1.801-1.278 1.175-2.231l-0.412-0.629c-0.617-0.943-0.762-2.052-0.762-3.186v-5.439c-0.057-4.727-4.236-8.601-9.038-8.613v0z"></path>
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4615" d="M13.538 1.641c0.762 0 1.492 0.303 2.031 0.841s0.841 1.269 0.841 2.031v1.436h-5.744v-1.436c0-0.762 0.303-1.492 0.841-2.031s1.269-0.841 2.031-0.841z"></path>
 </symbol>

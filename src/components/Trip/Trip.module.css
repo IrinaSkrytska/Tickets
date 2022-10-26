@@ -346,6 +346,6 @@
   line-height: 15px;
 }
 .search__text {
-  margin-left: 3px;
-  vertical-align: text-top;
+  margin-left: 7px;
+  vertical-align: super;
 }
