@@ -23,7 +23,7 @@ export default function TicketDetails() {
                 className={css.option__icon}
               />
             </li>
-            <Link to={`/tickets/:ticketId/options`} state={{ from: location }}>
+            <Link to={`/tickets/ticketId/options`} state={{ from: location }}>
               <li className={css.option__transport}>
                 <img
                   src={transport}
