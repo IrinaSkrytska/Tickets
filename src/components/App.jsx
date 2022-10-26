@@ -5,6 +5,7 @@ import Ticket from './Ticket';
 import TicketDetails from './TicketDetails';
 import TravelOptions from './TravelOptions';
 import Trip from './Trip';
+import Notifications from './Notifications';
 
 export const App = () => {
   return (
@@ -20,6 +21,10 @@ export const App = () => {
         <Route
           path="tickets/:ticketId/settings/options/trip"
           element={<Trip />}
+        />
+        <Route
+          path="tickets/:ticketId/settings/options/trip/notifications"
+          element={<Notifications />}
         />
       </Routes>
       <Footer />

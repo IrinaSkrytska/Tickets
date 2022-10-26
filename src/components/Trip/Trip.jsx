@@ -41,15 +41,17 @@ export default function Trip() {
                   className={css.option__icon__transport}
                 />
               </li>
-              <li className={css.option__notification}>
-                <img
-                  src={bell_white}
-                  alt=""
-                  width="28px"
-                  height="28px"
-                  className={css.option__icon__bell}
-                />
-              </li>
+              <Link to={`notifications`} state={{ from: location }}>
+                <li className={css.option__notification}>
+                  <img
+                    src={bell_white}
+                    alt=""
+                    width="28px"
+                    height="28px"
+                    className={css.option__icon__bell}
+                  />
+                </li>
+              </Link>
             </ul>
           </div>
           <div className={css.ticket}>
@@ -98,7 +100,7 @@ export default function Trip() {
                       aria-label=""
                       className={css.icon__bus}
                     >
-                      <use href={sprite + '#icon-bus'}></use>
+                      <use href={sprite + '#icon__bus__yellow'}></use>
                     </svg>
                     Залізничний вокзал “Чернівці”
                   </li>
@@ -176,7 +178,7 @@ export default function Trip() {
                       aria-label=""
                       className={css.icon__bus}
                     >
-                      <use href={sprite + '#icon-bus'}></use>
+                      <use href={sprite + '#icon__bus__yellow'}></use>
                     </svg>
                     Автовокзал Катовіце
                   </li>

@@ -1,0 +1,57 @@
+.hero {
+  position: relative;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      180deg,
+      rgba(1, 33, 105, 0.3) 0%,
+      rgba(255, 255, 255, 0.9) 74.77%
+    ),
+    url(../../images/notifications.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  padding-bottom: 250px;
+}
+.ticket {
+  width: 560px;
+  height: 1068px;
+}
+.ticket__options {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 128px;
+  left: 704px;
+}
+.option {
+  margin-right: -7px;
+  width: 116px;
+  height: 47px;
+  background-image: url(../../images/settingsW_bg.svg);
+}
+.option__icon {
+  position: absolute;
+  top: 7px;
+  left: 41px;
+}
+.option__transport {
+  margin-right: -7px;
+  width: 116px;
+  height: 47px;
+  background-image: url(../../images/transportB_bg.svg);
+}
+.option__icon__transport {
+  position: absolute;
+  left: 147px;
+  top: 5px;
+}
+.option__notification {
+  width: 116px;
+  height: 47px;
+  background-image: url(../../images/bellW_bg.svg);
+}
+.option__icon__bell {
+  position: absolute;
+  left: 257px;
+  top: 10px;
+}
