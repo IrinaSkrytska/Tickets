@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/TriPlanner/static/css/main.c63c5667.css",
-    "main.js": "/TriPlanner/static/js/main.efd47003.js",
+    "main.css": "/TriPlanner/static/css/main.b389a40e.css",
+    "main.js": "/TriPlanner/static/js/main.150c1746.js",
     "static/media/LA.jpg": "/TriPlanner/static/media/LA.913aaee68a3bcfda8422.jpg",
     "static/media/Platz.jpg": "/TriPlanner/static/media/Platz.61ec8385848782ca0148.jpg",
     "static/media/image.jpg": "/TriPlanner/static/media/image.4450318ab86cdc14915d.jpg",
     "static/media/options_bg.jpg": "/TriPlanner/static/media/options_bg.cd985b36208839c15845.jpg",
+    "static/media/notifications.jpg": "/TriPlanner/static/media/notifications.d1a786af49a849f832a9.jpg",
     "static/media/join.jpg": "/TriPlanner/static/media/join.3bc7b8615bd92ab4e9f3.jpg",
-    "static/media/sprite.svg": "/TriPlanner/static/media/sprite.b3ef2b8a2cf31d86019769488fe20481.svg",
+    "static/media/usa.jpg": "/TriPlanner/static/media/usa.61333ab5f4cdeeca22c3.jpg",
+    "static/media/stambul.jpg": "/TriPlanner/static/media/stambul.9aba1f7bcd5a6711dc7b.jpg",
+    "static/media/sprite.svg": "/TriPlanner/static/media/sprite.da26f170a1bb369d546c54bb92cea6e0.svg",
+    "static/media/israel.jpg": "/TriPlanner/static/media/israel.307db56674e4f1aea0af.jpg",
     "static/media/background-app.jpg": "/TriPlanner/static/media/background-app.40edfe83a3857554c1ad.jpg",
     "static/media/footer.jpg": "/TriPlanner/static/media/footer.1051c77f84577658fcbb.jpg",
     "static/media/qrCode.jpg": "/TriPlanner/static/media/qrCode.79196c289309c3661b49.jpg",
@@ -24,20 +28,22 @@
     "static/media/place.svg": "/TriPlanner/static/media/place.15c86d5d7c29975df00da77eb76efe40.svg",
     "static/media/bellW_bg.svg": "/TriPlanner/static/media/bellW_bg.0cb9effbd2112d50e554.svg",
     "static/media/bell_bg.svg": "/TriPlanner/static/media/bell_bg.678ae01eada7a32f04ff.svg",
+    "static/media/bell_blue.svg": "/TriPlanner/static/media/bell_blue.61316f463357401a623de3d261d467fc.svg",
     "static/media/transport_bg.svg": "/TriPlanner/static/media/transport_bg.5815d7fe2ae204f7d25d.svg",
     "static/media/date.svg": "/TriPlanner/static/media/date.41db0a65b65b6ad28116c4cf4828f616.svg",
     "index.html": "/TriPlanner/index.html",
     "static/media/bell.svg": "/TriPlanner/static/media/bell.21f4f0e36d04d36a132557c204e0628c.svg",
     "static/media/bell_white.svg": "/TriPlanner/static/media/bell_white.21f4f0e36d04d36a132557c204e0628c.svg",
     "static/media/main__direction.svg": "/TriPlanner/static/media/main__direction.37acde7cdd26dc68ec74.svg",
+    "static/media/bell_blue_bg.svg": "/TriPlanner/static/media/bell_blue_bg.3bba68fb56725049809d.svg",
     "static/media/settings_bg.svg": "/TriPlanner/static/media/settings_bg.e59d53e95549a7138f71.svg",
     "static/media/transportB_bg.svg": "/TriPlanner/static/media/transportB_bg.741d5154d0ffa8336ea8.svg",
     "static/media/pink.svg": "/TriPlanner/static/media/pink.21289bdc218f8c650cae253a1183f5db.svg",
-    "main.c63c5667.css.map": "/TriPlanner/static/css/main.c63c5667.css.map",
-    "main.efd47003.js.map": "/TriPlanner/static/js/main.efd47003.js.map"
+    "main.b389a40e.css.map": "/TriPlanner/static/css/main.b389a40e.css.map",
+    "main.150c1746.js.map": "/TriPlanner/static/js/main.150c1746.js.map"
   },
   "entrypoints": [
-    "static/css/main.c63c5667.css",
-    "static/js/main.efd47003.js"
+    "static/css/main.b389a40e.css",
+    "static/js/main.150c1746.js"
   ]
 }
