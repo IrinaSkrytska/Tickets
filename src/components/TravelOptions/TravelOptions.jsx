@@ -15,7 +15,10 @@ export default function TravelOptions() {
         <div>
           <div>
             <ul className={css.ticket__options}>
-              <Link to={`settings`} state={{ from: location }}>
+              <Link
+                to={`/tickets/:ticketId//settings`}
+                state={{ from: location }}
+              >
                 <li className={css.option}>
                   <img
                     src={settingsWhite}
@@ -35,20 +38,28 @@ export default function TravelOptions() {
                   className={css.option__icon__transport}
                 />
               </li>
-              <li className={css.option__notification}>
-                <img
-                  src={bell_white}
-                  alt=""
-                  width="28px"
-                  height="28px"
-                  className={css.option__icon__bell}
-                />
-              </li>
+              <Link
+                to={`/tickets/:ticketId//notifications`}
+                state={{ from: location }}
+              >
+                <li className={css.option__notification}>
+                  <img
+                    src={bell_white}
+                    alt=""
+                    width="28px"
+                    height="28px"
+                    className={css.option__icon__bell}
+                  />
+                </li>
+              </Link>
             </ul>
           </div>
           <div className={css.details__thumb}>
             <ul className={css.details}>
-              <Link to={`trip`} state={{ from: location }}>
+              <Link
+                to={`/tickets/:ticketId//options/trip`}
+                state={{ from: location }}
+              >
                 <li className={css.travel}>
                   Подорож #1
                   <svg

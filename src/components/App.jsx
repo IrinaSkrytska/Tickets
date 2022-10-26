@@ -6,6 +6,7 @@ import TicketDetails from './TicketDetails';
 import TravelOptions from './TravelOptions';
 import Trip from './Trip';
 import Notifications from './Notifications';
+import NotFoundPage from './NotFoundPage';
 
 export const App = () => {
   return (
@@ -14,18 +15,13 @@ export const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="tickets/:ticketId/" element={<Ticket />} />
         <Route path="tickets/:ticketId/settings" element={<TicketDetails />} />
+        <Route path="tickets/:ticketId/options" element={<TravelOptions />} />
+        <Route path="tickets/:ticketId/options/trip" element={<Trip />} />
         <Route
-          path="tickets/:ticketId/settings/options"
-          element={<TravelOptions />}
-        />
-        <Route
-          path="tickets/:ticketId/settings/options/trip"
-          element={<Trip />}
-        />
-        <Route
-          path="tickets/:ticketId/settings/options/trip/notifications"
+          path="tickets/:ticketId/notifications"
           element={<Notifications />}
         />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
     </>

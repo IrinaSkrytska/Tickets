@@ -15,26 +15,34 @@ export default function Notifications() {
         <div>
           <div>
             <ul className={css.ticket__options}>
-              <li className={css.option}>
-                <img
-                  src={settingsWhite}
-                  alt=""
-                  width="32px"
-                  height="32px"
-                  className={css.option__icon}
-                />
-              </li>
-
-              <li className={css.option__transport}>
-                <img
-                  src={transport}
-                  alt=""
-                  width="40px"
-                  height="40px"
-                  className={css.option__icon__transport}
-                />
-              </li>
-
+              <Link
+                to={`/tickets/:ticketId//settings`}
+                state={{ from: location }}
+              >
+                <li className={css.option}>
+                  <img
+                    src={settingsWhite}
+                    alt=""
+                    width="32px"
+                    height="32px"
+                    className={css.option__icon}
+                  />
+                </li>
+              </Link>
+              <Link
+                to={`/tickets/:ticketId//options`}
+                state={{ from: location }}
+              >
+                <li className={css.option__transport}>
+                  <img
+                    src={transport}
+                    alt=""
+                    width="40px"
+                    height="40px"
+                    className={css.option__icon__transport}
+                  />
+                </li>
+              </Link>
               <li className={css.option__notification}>
                 <img
                   src={bell_blue}

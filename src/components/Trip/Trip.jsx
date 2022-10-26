@@ -21,7 +21,10 @@ export default function Trip() {
         <div>
           <div>
             <ul className={css.ticket__options}>
-              <Link to={`settings`} state={{ from: location }}>
+              <Link
+                to={`/tickets/:ticketId//settings`}
+                state={{ from: location }}
+              >
                 <li className={css.option}>
                   <img
                     src={settingsWhite}
@@ -32,16 +35,24 @@ export default function Trip() {
                   />
                 </li>
               </Link>
-              <li className={css.option__transport}>
-                <img
-                  src={transport_blue}
-                  alt=""
-                  width="40px"
-                  height="40px"
-                  className={css.option__icon__transport}
-                />
-              </li>
-              <Link to={`notifications`} state={{ from: location }}>
+              <Link
+                to={`/tickets/:ticketId//options`}
+                state={{ from: location }}
+              >
+                <li className={css.option__transport}>
+                  <img
+                    src={transport_blue}
+                    alt=""
+                    width="40px"
+                    height="40px"
+                    className={css.option__icon__transport}
+                  />
+                </li>
+              </Link>
+              <Link
+                to={`/tickets/:ticketId//notifications`}
+                state={{ from: location }}
+              >
                 <li className={css.option__notification}>
                   <img
                     src={bell_white}
