@@ -382,7 +382,7 @@ export default function Ticket() {
                   </button>
 
                   <Link
-                    to={`/tickets/:ticketId/settings`}
+                    to={`/tickets/ticketId/settings`}
                     state={{ from: location }}
                   >
                     <button type="button" className={css.search__btn}>
@@ -573,7 +573,7 @@ export default function Ticket() {
                   </button>
 
                   <Link
-                    to={`/tickets/:ticketId/settings`}
+                    to={`/tickets/ticketId/settings`}
                     state={{ from: location }}
                   >
                     <button type="button" className={css.search__btn}>
@@ -753,7 +753,7 @@ export default function Ticket() {
                     <span className={css.button__text}>Завантажити PDF</span>
                   </button>
                   <Link
-                    to={`/tickets/:ticketId/settings`}
+                    to={`/tickets/ticketId/settings`}
                     state={{ from: location }}
                   >
                     <button type="button" className={css.search__btn}>

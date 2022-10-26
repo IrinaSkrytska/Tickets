@@ -16,7 +16,7 @@ export default function TravelOptions() {
           <div>
             <ul className={css.ticket__options}>
               <Link
-                to={`/tickets/:ticketId//settings`}
+                to={`/tickets/ticketId//settings`}
                 state={{ from: location }}
               >
                 <li className={css.option}>
@@ -39,7 +39,7 @@ export default function TravelOptions() {
                 />
               </li>
               <Link
-                to={`/tickets/:ticketId//notifications`}
+                to={`/tickets/ticketId//notifications`}
                 state={{ from: location }}
               >
                 <li className={css.option__notification}>
@@ -57,7 +57,7 @@ export default function TravelOptions() {
           <div className={css.details__thumb}>
             <ul className={css.details}>
               <Link
-                to={`/tickets/:ticketId//options/trip`}
+                to={`/tickets/ticketId//options/trip`}
                 state={{ from: location }}
               >
                 <li className={css.travel}>
