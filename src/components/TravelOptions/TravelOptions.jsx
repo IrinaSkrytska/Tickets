@@ -16,7 +16,7 @@ export default function TravelOptions() {
           <div>
             <ul className={css.ticket__options}>
               <Link
-                to={`/tickets/ticketId//settings`}
+                to={`/tickets/ticketId/settings`}
                 state={{ from: location }}
               >
                 <li className={css.option}>
@@ -39,7 +39,7 @@ export default function TravelOptions() {
                 />
               </li>
               <Link
-                to={`/tickets/ticketId//notifications`}
+                to={`/tickets/ticketId/notifications`}
                 state={{ from: location }}
               >
                 <li className={css.option__notification}>
@@ -57,7 +57,7 @@ export default function TravelOptions() {
           <div className={css.details__thumb}>
             <ul className={css.details}>
               <Link
-                to={`/tickets/ticketId//options/trip`}
+                to={`/tickets/ticketId/options/trip`}
                 state={{ from: location }}
               >
                 <li className={css.travel}>
@@ -80,101 +80,126 @@ export default function TravelOptions() {
                   </svg>
                 </li>
               </Link>
-              <li className={css.travel}>
-                Подорож #2
-                <svg
-                  width="25px"
-                  height="22px"
-                  aria-label=""
-                  className={css.icon_printer}
-                >
-                  <use href={sprite + '#icon-printer'}></use>
-                </svg>
-                <svg
-                  width="25px"
-                  height="22px"
-                  aria-label=""
-                  className={css.icon_details}
-                >
-                  <use href={sprite + '#icon-details'}></use>
-                </svg>
-              </li>
-              <li className={css.travel}>
-                Подорож #3
-                <svg
-                  width="25px"
-                  height="22px"
-                  aria-label=""
-                  className={css.icon_printer}
-                >
-                  <use href={sprite + '#icon-printer'}></use>
-                </svg>
-                <svg
-                  width="25px"
-                  height="22px"
-                  aria-label=""
-                  className={css.icon_details}
-                >
-                  <use href={sprite + '#icon-details'}></use>
-                </svg>
-              </li>
-              <li className={css.travel}>
-                Подорож #4
-                <svg
-                  width="25px"
-                  height="22px"
-                  aria-label=""
-                  className={css.icon_printer}
-                >
-                  <use href={sprite + '#icon-printer'}></use>
-                </svg>
-                <svg
-                  width="25px"
-                  height="22px"
-                  aria-label=""
-                  className={css.icon_details}
-                >
-                  <use href={sprite + '#icon-details'}></use>
-                </svg>
-              </li>
-              <li className={css.travel}>
-                Подорож #5
-                <svg
-                  width="25px"
-                  height="22px"
-                  aria-label=""
-                  className={css.icon_printer}
-                >
-                  <use href={sprite + '#icon-printer'}></use>
-                </svg>
-                <svg
-                  width="25px"
-                  height="22px"
-                  aria-label=""
-                  className={css.icon_details}
-                >
-                  <use href={sprite + '#icon-details'}></use>
-                </svg>
-              </li>
-              <li className={css.travel}>
-                Подорож #6
-                <svg
-                  width="25px"
-                  height="22px"
-                  aria-label=""
-                  className={css.icon_printer}
-                >
-                  <use href={sprite + '#icon-printer'}></use>
-                </svg>
-                <svg
-                  width="25px"
-                  height="22px"
-                  aria-label=""
-                  className={css.icon_details}
-                >
-                  <use href={sprite + '#icon-details'}></use>
-                </svg>
-              </li>
+              <Link
+                to={`/tickets/ticketId/options/trip`}
+                state={{ from: location }}
+              >
+                <li className={css.travel}>
+                  Подорож #2
+                  <svg
+                    width="25px"
+                    height="22px"
+                    aria-label=""
+                    className={css.icon_printer}
+                  >
+                    <use href={sprite + '#icon-printer'}></use>
+                  </svg>
+                  <svg
+                    width="25px"
+                    height="22px"
+                    aria-label=""
+                    className={css.icon_details}
+                  >
+                    <use href={sprite + '#icon-details'}></use>
+                  </svg>
+                </li>
+              </Link>{' '}
+              <Link
+                to={`/tickets/ticketId/options/trip`}
+                state={{ from: location }}
+              >
+                <li className={css.travel}>
+                  Подорож #3
+                  <svg
+                    width="25px"
+                    height="22px"
+                    aria-label=""
+                    className={css.icon_printer}
+                  >
+                    <use href={sprite + '#icon-printer'}></use>
+                  </svg>
+                  <svg
+                    width="25px"
+                    height="22px"
+                    aria-label=""
+                    className={css.icon_details}
+                  >
+                    <use href={sprite + '#icon-details'}></use>
+                  </svg>
+                </li>
+              </Link>
+              <Link
+                to={`/tickets/ticketId/options/trip`}
+                state={{ from: location }}
+              >
+                <li className={css.travel}>
+                  Подорож #4
+                  <svg
+                    width="25px"
+                    height="22px"
+                    aria-label=""
+                    className={css.icon_printer}
+                  >
+                    <use href={sprite + '#icon-printer'}></use>
+                  </svg>
+                  <svg
+                    width="25px"
+                    height="22px"
+                    aria-label=""
+                    className={css.icon_details}
+                  >
+                    <use href={sprite + '#icon-details'}></use>
+                  </svg>
+                </li>
+              </Link>
+              <Link
+                to={`/tickets/ticketId/options/trip`}
+                state={{ from: location }}
+              >
+                <li className={css.travel}>
+                  Подорож #5
+                  <svg
+                    width="25px"
+                    height="22px"
+                    aria-label=""
+                    className={css.icon_printer}
+                  >
+                    <use href={sprite + '#icon-printer'}></use>
+                  </svg>
+                  <svg
+                    width="25px"
+                    height="22px"
+                    aria-label=""
+                    className={css.icon_details}
+                  >
+                    <use href={sprite + '#icon-details'}></use>
+                  </svg>
+                </li>
+              </Link>
+              <Link
+                to={`/tickets/ticketId/options/trip`}
+                state={{ from: location }}
+              >
+                <li className={css.travel}>
+                  Подорож #6
+                  <svg
+                    width="25px"
+                    height="22px"
+                    aria-label=""
+                    className={css.icon_printer}
+                  >
+                    <use href={sprite + '#icon-printer'}></use>
+                  </svg>
+                  <svg
+                    width="25px"
+                    height="22px"
+                    aria-label=""
+                    className={css.icon_details}
+                  >
+                    <use href={sprite + '#icon-details'}></use>
+                  </svg>
+                </li>{' '}
+              </Link>
               <Link to={`/`} state={{ from: location }}>
                 <button type="button" className={css.button__pink}>
                   <svg

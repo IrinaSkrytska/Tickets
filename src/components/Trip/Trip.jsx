@@ -50,7 +50,7 @@ export default function Trip() {
                 </li>
               </Link>
               <Link
-                to={`/tickets/ticketId//notifications`}
+                to={`/tickets/ticketId/notifications`}
                 state={{ from: location }}
               >
                 <li className={css.option__notification}>
