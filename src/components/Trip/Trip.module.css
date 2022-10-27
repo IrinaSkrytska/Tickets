@@ -118,7 +118,7 @@
 .time {
   padding: 2px 5px 2px 5px;
   margin-right: 10px;
-  margin-left: 196px;
+  margin-left: 220px;
   border: 2px solid rgba(0, 0, 0, 0.3);
   border-radius: 15.5px;
   font-style: normal;
@@ -220,7 +220,7 @@
 .ticket__btn {
   position: absolute;
   top: 20px;
-  left: 300px;
+  left: 330px;
   width: 130px;
   height: 31px;
   background: #f1b31c;
@@ -235,7 +235,7 @@
 .ticket__btn__pink {
   position: absolute;
   top: 20px;
-  left: 300px;
+  left: 330px;
   width: 130px;
   height: 31px;
   background: #f1b31c;
@@ -251,7 +251,7 @@
 .ticket__btn__blue {
   position: absolute;
   top: 20px;
-  left: 300px;
+  left: 330px;
   width: 130px;
   height: 31px;
   background: #f1b31c;
