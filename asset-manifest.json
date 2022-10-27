@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TriPlanner/static/css/main.b389a40e.css",
+    "main.css": "/TriPlanner/static/css/main.28ce9c44.css",
     "main.js": "/TriPlanner/static/js/main.acaab97f.js",
     "static/media/LA.jpg": "/TriPlanner/static/media/LA.913aaee68a3bcfda8422.jpg",
     "static/media/Platz.jpg": "/TriPlanner/static/media/Platz.61ec8385848782ca0148.jpg",
@@ -39,11 +39,11 @@
     "static/media/settings_bg.svg": "/TriPlanner/static/media/settings_bg.e59d53e95549a7138f71.svg",
     "static/media/transportB_bg.svg": "/TriPlanner/static/media/transportB_bg.741d5154d0ffa8336ea8.svg",
     "static/media/pink.svg": "/TriPlanner/static/media/pink.21289bdc218f8c650cae253a1183f5db.svg",
-    "main.b389a40e.css.map": "/TriPlanner/static/css/main.b389a40e.css.map",
+    "main.28ce9c44.css.map": "/TriPlanner/static/css/main.28ce9c44.css.map",
     "main.acaab97f.js.map": "/TriPlanner/static/js/main.acaab97f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b389a40e.css",
+    "static/css/main.28ce9c44.css",
     "static/js/main.acaab97f.js"
   ]
 }
