@@ -22,7 +22,7 @@ export default function Trip() {
           <div>
             <ul className={css.ticket__options}>
               <Link
-                to={`/tickets/ticketId//settings`}
+                to={`/tickets/ticketId/settings`}
                 state={{ from: location }}
               >
                 <li className={css.option}>
@@ -35,10 +35,7 @@ export default function Trip() {
                   />
                 </li>
               </Link>
-              <Link
-                to={`/tickets/ticketId//options`}
-                state={{ from: location }}
-              >
+              <Link to={`/tickets/ticketId/options`} state={{ from: location }}>
                 <li className={css.option__transport}>
                   <img
                     src={transport_blue}
